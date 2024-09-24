@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=SUSE:wght@100..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*============================topnavbar==========================*/
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:white;
+    border-bottom-color: rgb(0,0,0);
+    /* margin-bottom: 10px; */
+    align-items: center;
+    color: white;
+    background-color:  rgb(33, 37, 41);
+
+
+}
+.topnav a{
+    text-decoration: none; 
+   
+}
+.topnav {
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+.nav i{
+    margin-left: 10px;
+}
+/*=============================midnavbar========================*/
+.midnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#330f6d;
+    
+}
+.midnav  a{
+    
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+}
+.midnav article {
+    display: flex;
+    align-items: center;
+}
+.vd{
+  
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    align-items: center;
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 20px;
+}
+
+.vd div{
+    margin: 10px;
+    /* height: 80%; */
+    background-color: black; 
+    width: 100%; 
+}
+.vd div iframe{
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+
+.heading{
+    /* margin-bottom: 500px; */
+}
+
+@media(max-width:992px){
+    .midnav  a{
+        display: none;
+    }
+}
+/*---==========================================*/
+.card{
+    height: 400px;
+    display: flex;
+    overflow-x: scroll;
+    background-color: rgb(16, 23, 43);
+    align-items: center;
+}
+.card div{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+.card div img{
+    width: 150px;
+}
+.card::-webkit-scrollbar{
+    display: 5px;
+}
+
+/*=================================hover======================*/
+.card div img:hover{
+    top: -5px;
+    transition: all 1s;
+    box-shadow: 0px 0px 50px 0px;
+    position: sticky;
+    padding: 10px 10px 10px 10px;
+}
+.card div:hover{
+    color: brown;
+    cursor: pointer;
+}
+.card div img{
+    height: 250px;
+    width: 200px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 20px 0px;
+}
+/*================================ looking==========================*/
+.whitenav{
+    display: flex;
+    margin: 100px;
+    
+}.whitenav a{
+    align-items: center;
+    text-decoration: none;
+    justify-items: center;
+    margin-left: 170px;
+    font-size: larger;
+}
+h1{
+     /* margin-left: 450px;  */
+     /* margin-top: 30px;  */
+     text-align: center;
+}
+.whitenav div:hover{
+    
+    transition: all 1s;
+}
+.whitenav div a:hover{
+    /* position: sticky; */
+    padding: 10px 10px 10px 10px;
+    color: rgb(2, 2, 41);
+    background-color: rgb(163, 40, 40);
+}
+.whitenav a{
+    color: black;
+}
+
+@media(max-width:992){
+    .whitenav div{
+        display: none;
+    }
+}
+
+/*=================================excluvice=========*/
+.excli div{
+    
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+.excli{
+    height: 400px;
+    display: flex;
+    overflow-x: scroll;
+    background-color: black;
+    align-items: center;
+}
+.excli div img{
+    width: 150px;
+}
+.excli::-webkit-scrollbar{
+    display: 5px;
+}
+/*=================================*/
+
+.excli div img:hover{
+    top: -5px;
+    transition: all 1s;
+    box-shadow: 0px 0px 50px 0px;
+    position: sticky;
+    padding: 10px 10px 10px 10px;
+}
+.excli div img{
+    width: 200px;
+    height: 250px;
+}
+/*=========================================pointtable==================*/
+.point{
+    display: flex;
+    overflow-x: scroll;
+}
+.point div img{
+    height: 100px;
+    width: 150px;
+}
+.point::-webkit-scrollbar{
+    display: 5px;
+}
+/*====================================================================*/
+.point div img:hover{
+    transition: all 1s;
+    position: sticky;
+    padding: 10px 10px 10px 10px;
+    top: -10px;
+    box-shadow: 0px 0px 50px 0px;
+}
+.point div{
+    height: 250px;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(102, 102, 102);
+    
+}
+/*========================================magicmoment==========================*/
+.magic{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    justify-content: space-evenly;
+    background-color: rgb(33 37 41);
+}
+.magic img{
+    width: 250px;
+    height: 200px;
+}
+.magic div{
+    margin: 20px;
+    padding: 20px;
+}
+
+@media(max-width:992){
+    .magic {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+    }
+    
+
+}
+/*========================================top performens===========================*/
+.perform{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+.perform div{
+    margin: 40px;
+    padding: 40px;
+    text-align: center;
+}
+/*======================================result==========================*/
+.result{
+    display: flex;
+    overflow-x: scroll;
+    background-color: rgb(33 37 41);
+}
+.result div {
+    margin: 20px;
+    padding: 50px;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    
+}
+.result div img{
+    width: 200px;
+}
+/*==============================================get*/
+.get{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color: rgb(58, 58, 170);
+    font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+}
+ .get article .goo{
+    margin-top: 80px;
+    color: white;
+ }
+ .get article .app{
+    color: white;
+ }
+ /*=========================foot==========================*/
+ .last{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    
+ }
+ .last div img{
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    
+ }
+ .fott{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(33 37 41);
+    justify-content: space-around;
+    align-items: center;
+ }
+
+input{
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+}
+ 
+
+    
+
+
+
+
+    
+
